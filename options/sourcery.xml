@@ -1,0 +1,11 @@
+<application>
+  <component name="SourceryConfigService">
+    <option name="cloneDetectionEnabled" value="true" />
+    <option name="fullProjectRefactoringEnabled" value="true" />
+    <option name="pluginVersion" value="0.9.8" />
+    <option name="sourceryExecutable" value="$APPLICATION_PLUGINS_DIR$/sourcery/sourcery_binaries/install/linux/sourcery" />
+    <option name="sourceryProductName" value="Free" />
+    <option name="sourceryToken" value="user_ZO1VsbbOvVNfruJJuuyS4F6l7WHcw7_hc7BHJ8NFcgUgaTpf5qfQo0Dl4Gk" />
+    <option name="sourceryVersion" value="0.9.8" />
+  </component>
+</application>

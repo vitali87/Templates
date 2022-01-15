@@ -1,0 +1,29 @@
+<templateSet group="user">
+  <template name="class" value="class $class$($SuperClass$):&#10;    &quot;&quot;&quot;$cls_doc$&quot;&quot;&quot;&#10;&#10;    def __init__(&#10;            self,&#10;            $args$&#10;    ) -&gt; None:&#10;        &quot;&quot;&quot;Constructor for $class$&quot;&quot;&quot;&#10;    &#10;    def $method1$(self,$args2$) -&gt; None:&#10;        &quot;&quot;&quot;Responsible for $docstring_method1$&quot;&quot;&quot;&#10;        &#10;        $body_method1$&#10;        &#10;    def $method2$(self,$args3$) -&gt; None:&#10;        &quot;&quot;&quot;Responsible for $docstring_method2$&quot;&quot;&quot;&#10;        &#10;        $body_method2$&#10;&#10;    def $method3$(self,$args4$) -&gt; None:&#10;        &quot;&quot;&quot;Responsible for $docstring_method3$&quot;&quot;&quot;&#10;        &#10;        $body_method3$&#10;&#10;    @property&#10;    def $propert1$(self) -&gt; None:&#10;        &quot;&quot;&quot;Responsible for $docstring_property1$&quot;&quot;&quot;&#10;        &#10;        $body_property1$&#10;        &#10;    @property&#10;    def $propert2$(self) -&gt; None:&#10;        &quot;&quot;&quot;Responsible for $docstring_property2$&quot;&quot;&quot;&#10;&#10;        $body_property2$&#10;                        &#10;    def __repr__(self) -&gt; str:&#10;        return f&quot;{self.__class__.__name__}&quot;    &#10;                &#10;$END$&#10;" description="class skeleton to work with" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="" defaultValue="CamelCase" alwaysStopAt="true" />
+    <variable name="SuperClass" expression="" defaultValue="SuperClass" alwaysStopAt="true" />
+    <variable name="cls_doc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="args" alwaysStopAt="true" />
+    <variable name="method1" expression="" defaultValue="method" alwaysStopAt="true" />
+    <variable name="args2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="docstring_method1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body_method1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="method2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="docstring_method2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body_method2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="method3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="docstring_method3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body_method3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="docstring_property1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="propert1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body_property1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="propert2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="docstring_property2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body_property2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
